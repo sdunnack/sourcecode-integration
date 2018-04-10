@@ -1,0 +1,17 @@
+version: "3"
+services:
+  sourceclear-integration:
+    container_name: sourceclear-integration
+    build: .
+    environment:
+      - PORT=80
+      - NODE_ENV=development
+    ports:
+      - "8080:80"
+    volumes:
+      - ./src:/srv/app/src
+    restart: always
+networks:
+  default:
+    external:
+      name: invisionlocal_default

@@ -1,0 +1,10 @@
+app:
+  build:
+    image: quay.io/invision/sourceclear-integration
+    dockerfile_path: Dockerfile
+  environment:
+    DEBUG: 1 # this still has problems as ci.sh doesn't understand false or true
+    SRCCLR_ENABLE_POLICY: true # use "new" policy configuration
+    VERBOSE: 1
+  encrypted_env_file: sourceclear.encrypted
+

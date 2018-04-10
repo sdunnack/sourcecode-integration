@@ -1,0 +1,13 @@
+{
+  "name": "sourceclear-integration",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "angular": "1.2.22",
+    "express": "4.14.1",
+    "sequelize": "3.16.0"
+  }
+}
