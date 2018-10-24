@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "angular": "1.2.22",
-    "express": "4.14.1",
+    "express": "4.15.5",
     "sequelize": "3.16.0"
   }
 }
