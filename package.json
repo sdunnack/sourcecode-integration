@@ -8,6 +8,6 @@
   "dependencies": {
     "angular": "1.2.22",
     "express": "4.14.1",
-    "sequelize": "3.16.0"
+    "sequelize": "3.19.0"
   }
 }
